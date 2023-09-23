@@ -6,9 +6,9 @@
 # else:
 #     print("You can not go bro")
 
-x = int(input("What Number do you want to check ?"))
-x %= 2
-if x == 1:
-    print("This is oda number")
+number = int(input("Which number do you want to check? "))
+number %= 2
+if number == 1:
+    print("This is an odd number.")
 else:
-    print("This is even number")
+    print("This is an even number.")
