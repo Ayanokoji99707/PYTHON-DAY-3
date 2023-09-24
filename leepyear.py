@@ -12,7 +12,7 @@ if year<1700:
  print("YOU ARE WELCOME")
 elif year/4:
  print("you are right")
-enen:
+else:
  print("You are not")
-even:
+else
  print("you are not")
