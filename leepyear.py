@@ -14,5 +14,3 @@ elif year/4:
  print("you are right")
 else:
  print("You are not")
-else
- print("you are not")
