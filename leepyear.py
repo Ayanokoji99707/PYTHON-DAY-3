@@ -1,16 +1,13 @@
-# Year =(input("Year"))
-# ##############SOMETHINK WRONG#########
-# if Year <1700:
-#     print("Hello")
-# else:
-#     print("Not working")
+def is_leap_year(year):
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400==0):
+        return True
+    else:
+        return False
 
-#     ############ EPLOAD COSE ///
-year=input("which year you want to check?") 
+# Input year from the user
+year = int(input("Enter a year: "))
 
-if year<1700:
- print("YOU ARE WELCOME")
-elif year/4:
- print("you are right")
+if is_leap_year(year):
+    print(f"{year} is a leap year.")
 else:
- print("You are not")
+    print(f"{year} is not a leap year.")
