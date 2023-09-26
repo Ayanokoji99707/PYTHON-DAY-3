@@ -17,3 +17,14 @@ year = int(input("Which year do you want to check? "))
 #         print("Leap year.")
 # else:
 #     print("Not leap year.")
+
+if year % 4:
+    if year % 100:
+        if year % 400:
+            print("Leep Year")
+        else:
+            print("Not Leep")
+    else:
+        print("Not Leep")
+else:
+    print("Not Leep")
